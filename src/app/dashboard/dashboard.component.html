@@ -7,17 +7,24 @@
   </div>
   <div class="chart">
     <h2>impressions</h2>
-    <app-impressions-chart [data]="data"></app-impressions-chart>
+    <app-chart [data]="data" label="impressions"></app-chart>
   </div>
   <div class="chart">
     <h2>clicks</h2>
-    <app-clicks-chart [data]="data"></app-clicks-chart>
+    <app-chart [data]="data" label="clicks" color="#86c7f3"></app-chart>
   </div>
+
   <div class="chart">
     <h2>Cost</h2>
-    <app-cost-chart [data]="data"></app-cost-chart>
+    <app-chart [data]="data" label="cost" color="#ffe29a"></app-chart>
+  </div>
+  <div class="chart">
+    <h2>Conversions</h2>
+    <app-chart [data]="data" label="conversions" color="#f1f2f4"></app-chart>
   </div>
 </div>
+
+app-chart
 <!-- <table>
   <thead>
     <tr>

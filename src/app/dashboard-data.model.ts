@@ -4,4 +4,5 @@ export interface DashboardData {
   clicks: number;
   cost: number;
   conversions: number;
+  [key: string]: any;
 }
