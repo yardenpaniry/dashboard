@@ -9,7 +9,7 @@
   flex-wrap: wrap;
   gap: 2%;
 }
-h2.title {
+.title {
   text-align: center;
   font-family: calibri;
 }
