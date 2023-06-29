@@ -1,0 +1,12 @@
+.chart {
+  width: 50%;
+}
+.dashboard {
+  display: flex;
+  text-align: -webkit-center;
+  flex-wrap: wrap;
+}
+h2.title {
+  text-align: center;
+  font-family: calibri;
+}

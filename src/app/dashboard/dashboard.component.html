@@ -1,0 +1,41 @@
+<h2 class="title">dashboard</h2>
+
+<div class="dashboard">
+  <div class="chart">
+    <h2>{{ response.title }}</h2>
+    <app-overallChart [data]="data"></app-overallChart>
+  </div>
+  <div class="chart">
+    <h2>impressions</h2>
+    <app-impressions-chart [data]="data"></app-impressions-chart>
+  </div>
+  <div class="chart">
+    <h2>clicks</h2>
+    <app-clicks-chart [data]="data"></app-clicks-chart>
+  </div>
+  <div class="chart">
+    <h2>Cost</h2>
+    <app-cost-chart [data]="data"></app-cost-chart>
+  </div>
+</div>
+<!-- <table>
+  <thead>
+    <tr>
+      <th>Timestamp</th>
+      <th>Impressions</th>
+      <th>Clicks</th>
+      <th>Cost</th>
+      <th>Conversions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of data">
+      <td>{{ item.timestamp }}</td>
+      <td>{{ item.impressions }}</td>
+      <td>{{ item.clicks }}</td>
+      <td>{{ item.cost }}</td>
+      <td>{{ item.conversions }}</td>
+    </tr>
+  </tbody>
+</table> -->
+<!-- <div>HELLO WORLD</div> -->
